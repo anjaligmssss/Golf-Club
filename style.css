@@ -448,3 +448,214 @@ footer > p {
     margin-top: 10px;
     color: #2c2b2b;
 }
+
+
+/* ---------- RESPONSIVENESS ---------- */
+
+/* Tablets (below 1024px) */
+@media (max-width: 1024px) {
+  #nav {
+    padding: 0 60px;
+    gap: 25px;
+  }
+
+  #page1 h1 {
+    font-size: 60px;
+  }
+
+  #about-us {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+
+  #about-us-in {
+    width: 80%;
+  }
+
+  #cards-container {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 40px;
+  }
+
+  .card {
+    width: 40%;
+    height: 250px;
+  }
+
+  #green-div p {
+    font-size: 22px;
+    width: 60%;
+  }
+
+  #page4 {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 25px;
+  }
+
+  .box {
+    width: 40%;
+    height: 250px;
+  }
+}
+
+/* Mobile (below 768px) */
+@media (max-width: 768px) {
+  #nav {
+    padding: 0 20px;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  #nav h4 {
+    display: none; /* Hide nav items for now; you can replace with a hamburger menu later */
+  }
+
+  #nav img {
+    height: 55px;
+  }
+
+  #page1 h1 {
+    font-size: 40px;
+  }
+
+  #page1 h3 {
+    font-size: 18px;
+  }
+
+  #page1 p {
+    width: 80%;
+    font-size: 15px;
+  }
+
+  #scroller h4 {
+    font-size: 50px;
+  }
+
+  #about-us {
+    padding: 0 20px;
+  }
+
+  #about-us img {
+    height: 100px;
+  }
+
+  #about-us-in h3 {
+    font-size: 30px;
+  }
+
+  #about-us-in p {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 80%;
+    height: 230px;
+  }
+
+  #green-div {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 0;
+  }
+
+  #green-div p {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  #page3 p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #page4 h2 {
+    font-size: 35px;
+  }
+
+  .box {
+    width: 80%;
+    height: 220px;
+  }
+
+  footer {
+    height: auto;
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+
+  #foot1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .foot h1 {
+    font-size: 24px;
+  }
+
+  .foot p {
+    font-size: 14px;
+  }
+
+  footer > p {
+    font-size: 14px;
+  }
+}
+
+/* Small mobile (below 480px) */
+@media (max-width: 480px) {
+  #page1 h1 {
+    font-size: 32px;
+  }
+
+  #page1 h3 {
+    font-size: 16px;
+  }
+
+  #page1 p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  #about-us-in h3 {
+    font-size: 24px;
+  }
+
+  #about-us-in p {
+    font-size: 14px;
+  }
+
+  #scroller h4 {
+    font-size: 35px;
+  }
+
+  #green-div p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #page3 p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #page4 h2 {
+    font-size: 28px;
+  }
+
+  .box h1 {
+    font-size: 20px;
+  }
+
+  .foot h1 {
+    font-size: 18px;
+  }
+
+  .foot p {
+    font-size: 12px;
+  }
+}
